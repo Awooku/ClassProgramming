@@ -56,7 +56,7 @@ namespace KlasseProgrammering_2._0
              
 
             // (); betyder at du laver en metode
-            // (){ string navn = "whatever"; } er en anonym metode, som ikke virker
+            // (){ string navn = "whatever"; } er en anonym metode, som ikke virker            
 
             Console.ReadKey();
         }
