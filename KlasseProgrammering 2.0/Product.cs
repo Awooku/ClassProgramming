@@ -78,7 +78,7 @@ namespace KlasseProgrammering_2._0
             myProperty = value;
         }
 
-                I propertien og i metoden står der essentielt det samme.
+                I propertien og i metoden står der essentielt det samme
 
         */
 
