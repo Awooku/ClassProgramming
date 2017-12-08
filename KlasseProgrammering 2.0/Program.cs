@@ -28,8 +28,32 @@ namespace KlasseProgrammering_2._0
             User ObjectName = new User();
             ObjectName.MethodA();
 
-            Product etProdukt = new Product();
-            int tal = etProdukt.ProductNumber;
+            
+            //Product etProdukt = new Product();
+            //int tal = etProdukt.ProductNumber;
+           
+
+            List<User> liste = new List<User>()
+            {
+                new User
+                {
+                    alder = 6, navn = "Kent"                 
+                }
+            };
+
+            List<Product> list = new List<Product>()
+            {
+                new Product
+                {
+                    productID = 1, productName = "Saw", description = "Cuts things", weight = 2
+                },
+                new Product
+                {
+                    productID = 2, productName = "Hammer", description = "Hammers things", weight = 1.8
+                }
+            };
+
+             
 
             // (); betyder at du laver en metode
             // (){ string navn = "whatever"; } er en anonym metode, som ikke virker

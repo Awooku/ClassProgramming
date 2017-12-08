@@ -8,7 +8,12 @@ namespace KlasseProgrammering_2._0
 {
     class Product
     {
-        int etProdukt = 5;
+        public int productID; // attribute
+        public string productName { get; set; }
+        public string description { get; set; }        
+        public double weight { get; set; }
+
+        // hvorfor kan vi instansiere dette object åp 4 forskellige måder
 
     }
 }
